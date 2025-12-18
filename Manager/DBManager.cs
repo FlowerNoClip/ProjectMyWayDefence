@@ -9,7 +9,7 @@ public class DBManager : MonoBehaviour
     [SerializeField] private string dburl = "projectmwd.pro";
     [SerializeField] private string dbname = "mywaydefence";
     [SerializeField] private string dbid = "root";
-    [SerializeField] private string dbpw = "Gnrhkdtkfkd!2";
+    [SerializeField] private string dbpw = "----";
     protected string conStr = string.Empty;
 
     #region["Start is called before the first frame update"] 
@@ -21,3 +21,4 @@ public class DBManager : MonoBehaviour
 
 
 }
+
